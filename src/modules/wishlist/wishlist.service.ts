@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateWishlistDto } from './dto/create-wishlist.dto';
-import { Wishlist } from 'src/schemas/wishlist.schema';
+import { Wishlist } from '../../schemas/wishlist.schema';
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
 import { GetWishlistDto } from './dto/get-wishlist-by-user-id.dto';

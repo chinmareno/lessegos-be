@@ -1,6 +1,6 @@
 import { Connection } from 'mongoose';
-import { DATABASE } from 'src/constants/database';
-import { Wishlist, WishlistSchema } from 'src/schemas/wishlist.schema';
+import { DATABASE } from '../../constants/database';
+import { Wishlist, WishlistSchema } from '../../schemas/wishlist.schema';
 
 export const wishlistProvider = [
   {

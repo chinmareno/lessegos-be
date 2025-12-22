@@ -9,7 +9,7 @@ import {
 } from '@nestjs/common';
 import { WishlistService } from './wishlist.service';
 import { CreateWishlistDto } from './dto/create-wishlist.dto';
-import { WishlistDocument } from 'src/schemas/wishlist.schema';
+import { WishlistDocument } from '../../schemas/wishlist.schema';
 import { GetWishlistDto } from './dto/get-wishlist-by-user-id.dto';
 import { DeleteWishlistDto } from './dto/delete-wishlist-by-id.dto';
 

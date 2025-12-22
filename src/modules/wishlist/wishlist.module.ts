@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { WishlistController } from './wishlist.controller';
 import { WishlistService } from './wishlist.service';
 import { MongooseModule } from '@nestjs/mongoose';
-import { Wishlist, WishlistSchema } from 'src/schemas/wishlist.schema';
+import { Wishlist, WishlistSchema } from '../../schemas/wishlist.schema';
 
 @Module({
   imports: [
