@@ -10,7 +10,6 @@ import {
 import { ArticleService } from './article.service';
 import { CreateArticleDto } from './dto/create-article.dto';
 import { DeleteArticleDto } from './dto/delete-article.dto';
-
 @Controller('article')
 export class ArticleController {
   constructor(private readonly articleService: ArticleService) {}
